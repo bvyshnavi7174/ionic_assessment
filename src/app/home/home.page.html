@@ -1,11 +1,62 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="container">
-    <!-- Your content here -->
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="home-container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Welcome to Our Home Page</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>
+          Welcome to our home page! Here you can find information about our latest products, features, and updates. We are committed to providing you with the best experience and keeping you informed about our offerings.
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Our Products</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>
+          Discover our range of high-quality products designed to meet your needs. Whether you're looking for innovative solutions or reliable tools, we have something for everyone.
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Features</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ul>
+          <li>Feature 1: Description of the first feature.</li>
+          <li>Feature 2: Description of the second feature.</li>
+          <li>Feature 3: Description of the third feature.</li>
+          <li>Feature 4: Description of the fourth feature.</li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Stay Connected</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>
+          For the latest updates and news, follow us on our social media channels or <ion-router-link routerLink="/contact-us">contact us</ion-router-link> for more information.
+        </p>
+      </ion-card-content>
+    </ion-card>
   </div>
 </ion-content>

@@ -1,0 +1,39 @@
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  ion-card-title, ion-card-subtitle {
+    text-align: center;
+  }
+  
+  ion-item {
+    margin-bottom: 16px;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .forgot-password p {
+    font-size: 14px;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: var(--ion-color-primary);
+    font-weight: bold;
+  }
+  

@@ -19,19 +19,31 @@ export class ProductsPage implements OnInit {
       id: 1,
       title: 'Product 1',
       description: 'This is the description for product 1.',
-      image: 'assets/img/product1.jpg'
+      image: 'assets/products/product_1.jpg'
     },
     {
       id: 2,
       title: 'Product 2',
       description: 'This is the description for product 2.',
-      image: 'assets/img/product2.jpg'
+      image: 'assets/products/product_2.jpg'
     },
     {
       id: 3,
-      title: 'Product 3',
-      description: 'This is the description for product 3.',
-      image: 'assets/img/product3.jpg'
+      title: 'Product 2',
+      description: 'This is the description for product 2.',
+      image: 'assets/products/product_3.jpg'
+    },
+    {
+      id: 4,
+      title: 'Product 2',
+      description: 'This is the description for product 2.',
+      image: 'assets/products/product_4.jpg'
+    },
+    {
+      id: 5,
+      title: 'Product 2',
+      description: 'This is the description for product 2.',
+      image: 'assets/products/product_5.jpg'
     }
   ];
 

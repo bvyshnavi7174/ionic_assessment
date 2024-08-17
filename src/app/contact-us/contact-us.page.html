@@ -1,13 +1,61 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>contact-us</ion-title>
+    <ion-title>Contact Us</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">contact-us</ion-title>
+      <ion-title size="large">Contact Us</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <div class="contact-us-container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Get in Touch</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>
+          We value your feedback and are here to assist you with any questions or concerns. Please use the contact form below or reach out to us directly through our contact information provided.
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contact Information</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+        <p><strong>Email:</strong> contact&#64;company.com</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contact Form</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="stacked">Name</ion-label>
+          <ion-input type="text" placeholder="Your Name"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input type="email" placeholder="Your Email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Message</ion-label>
+          <ion-textarea placeholder="Your Message"></ion-textarea>
+        </ion-item>
+
+        <ion-button expand="block" color="primary" class="submit-button">Submit</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>

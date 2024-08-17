@@ -1,0 +1,36 @@
+
+ion-menu {
+    --width: 250px;
+  }
+  
+  ion-header[translucent] {
+    --background: #ffffff;
+  }
+  
+  ion-menu ion-header {
+    --background: #ffffff;
+  }
+  
+  ion-menu ion-toolbar {
+    --background: #f5f5f5;
+    --color: #000;
+  }
+  
+  ion-menu ion-item {
+    --color: #333;
+    --background: #ffffff;
+    --ripple-color: #ddd;
+  }
+  
+  ion-menu ion-item:hover {
+    --background: #f0f0f0;
+  }
+  
+  ion-menu ion-icon {
+    color: #888;
+  }
+  
+  ion-menu ion-label {
+    font-weight: bold;
+  }
+  
